@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="BlitCGs.vcxproj" Id="e67b2a71-0912-4e93-9f58-0b8d4ee8ae80" />
+</Solution>
