@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="BlitCGs.cpp" />
     <ClCompile Include="RasterSurface.cpp" />
+    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Surface.cpp" />
     <ClCompile Include="XTime.cpp" />
