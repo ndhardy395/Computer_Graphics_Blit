@@ -1,16 +1,20 @@
 #include <iostream>
 #include "RasterSurface.h"
+#include "Surface.h"
 
 int main()
 {
-	//const char[] name = { 'N', 'o', 'a', 'h', ' ', 'H', 'a', 'r', 'd', 'y' };
 	const char* studentName = "Noah Hardy";
-	const unsigned int width = 500;
-	const unsigned int height = 500;
+	Surface screen(500, 500);
 
-	RS_Initialize(studentName, width, height);
 
-	bool RS_Update(const unsigned int* _xrgbPixels, const unsigned int _numPixels);
+	RS_Initialize(studentName, screen.Width(), screen.Height());
 
-	bool RS_Shutdown(void);
+	do
+	{
+		screen.Clear(0xFF202020);					// Dark grey
+		screen.SetPixel(250, 250, 0xFFFF0000);		// One red pixel in the center
+	} while (RS_Update(screen.Data(), screen.Count()));
+
+	RS_Shutdown();
 }
