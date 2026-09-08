@@ -17,7 +17,7 @@ constexpr unsigned int FIRE_FRAMES = FIRE_COLUMNS * FIRE_ROWS;
 
 int main()
 {
-	const char* studentName = "Noah Hardy";
+	const char* studentName = "Noah Hardy - Lab 1";
 
 	const unsigned int SCREEN_WIDTH = 500;
 	const unsigned int SCREEN_HEIGHT = 500;
