@@ -16,7 +16,7 @@ namespace TownAtlas
 	//Buildings
 	const SpriteRect SHOP =			{ 16, 16, 96, 83 };
 	const SpriteRect RED_HOUSE =	{ 128, 32, 64, 67 };
-	const SpriteRect GREEN_HOUSE =  { 208, 32, 95, 65 };
+	const SpriteRect GREEN_HOUSE =  { 208, 32, 96, 65 };
 	const SpriteRect STONE_HALL =	{ 16, 112, 144, 72 };
 
 	//Scenery
