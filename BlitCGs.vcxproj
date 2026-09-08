@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="BlitCGs.cpp" />
     <ClCompile Include="RasterSurface.cpp" />
+    <ClCompile Include="Scene.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="Surface.cpp" />
     <ClCompile Include="XTime.cpp" />
@@ -151,6 +152,7 @@
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SpriteAtlas.h" />
     <ClInclude Include="Surface.h" />
+    <ClInclude Include="TownTiles.h" />
     <ClInclude Include="XTime.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

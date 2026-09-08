@@ -47,7 +47,7 @@ public:
 		unsigned int _srcX, unsigned int _srcY,
 		unsigned int _cellW, unsigned int _cellH);
 
-	// Repeats an instance of _src across the entire surface
+	// Repeats an instance of _src with a const Surface& across the entire surface
 	void Tile(const Surface& _src,
 		unsigned int _srcX, unsigned int _srcY,
 		unsigned int _cellW, unsigned int _cellH);
