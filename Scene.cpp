@@ -83,7 +83,7 @@ unsigned int ScatterRandom(Placement* _results, unsigned int _count, unsigned in
 	return placed;
 }
 
-void DrawPlacement(Surface& _target, const Surface& _sheet, const Placement* _placements, unsigned int _count)
+void DrawPlacements(Surface& _target, const Surface& _sheet, const Placement* _placements, unsigned int _count)
 {
 	for (unsigned int i = 0; i < _count; ++i)
 	{

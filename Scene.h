@@ -26,4 +26,4 @@ const Placement* TownLayout(unsigned int& _outCount);
 unsigned int ScatterRandom(Placement* _results, unsigned int _count, unsigned int _screenW, unsigned int _screenH);
 
 // Drawing with a Surface& onto _target
-void DrawPlacement(Surface& _target, const Surface& _sheet, const Placement* _placements, unsigned int _count);
+void DrawPlacements(Surface& _target, const Surface& _sheet, const Placement* _placements, unsigned int _count);
