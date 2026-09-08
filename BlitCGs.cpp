@@ -1,6 +1,11 @@
 #include <iostream>
 #include "RasterSurface.h"
 #include "Surface.h"
+#include <cstdlib>
+#include <ctime>
+
+//XTime timer;
+//srand((unsigned int)time(nullptr));
 
 int main()
 {

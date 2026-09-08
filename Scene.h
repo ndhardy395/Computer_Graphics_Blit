@@ -3,7 +3,7 @@
 
 class Surface;
 
-namespace scene
+namespace Scene
 {
 	constexpr int FIRE_X = 186;
 	constexpr int FIRE_Y = 186;
